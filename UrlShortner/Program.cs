@@ -50,6 +50,12 @@ app.MapGet("urls", (ShortUrl shortUrl, HttpContext ctx, ILiteDatabase db) =>
     return Results.BadRequest(new { ErrorMessage = "Invalid Url" });
 });
 
+app.MapGet("/", async (HttpContext ctx) =>
+{
+    // sets the contet type as html
+    ctx.Response.Headers.ContentType = new Microsoft.Extensions.Primitives.StringValues("text/html; charset=UTF-8");
 
+    await ctx.Response.SendFileAsync("wwwroot/index.html");
+});
 
 app.Run();
