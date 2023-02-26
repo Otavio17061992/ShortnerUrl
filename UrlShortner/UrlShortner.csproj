@@ -7,7 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Carter" Version="6.0.0" />
+    <Content Remove="wwwroot\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Carter" Version="7.0.0" />
+    <PackageReference Include="LiteDB" Version="5.0.15" />
+    <PackageReference Include="Nanoid" Version="2.1.0" />
   </ItemGroup>
 
 </Project>

@@ -24,3 +24,10 @@ D:\Projetos\UrlShortner\UrlShortner\obj\Debug\net7.0\refint\UrlShortner.dll
 D:\Projetos\UrlShortner\UrlShortner\obj\Debug\net7.0\UrlShortner.pdb
 D:\Projetos\UrlShortner\UrlShortner\obj\Debug\net7.0\UrlShortner.genruntimeconfig.cache
 D:\Projetos\UrlShortner\UrlShortner\obj\Debug\net7.0\ref\UrlShortner.dll
+D:\Projetos\UrlShortner\UrlShortner\bin\Debug\net7.0\UrlShortner.staticwebassets.runtime.json
+D:\Projetos\UrlShortner\UrlShortner\bin\Debug\net7.0\Carter.dll
+D:\Projetos\UrlShortner\UrlShortner\bin\Debug\net7.0\FluentValidation.dll
+D:\Projetos\UrlShortner\UrlShortner\bin\Debug\net7.0\LiteDB.dll
+D:\Projetos\UrlShortner\UrlShortner\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Projetos\UrlShortner\UrlShortner\bin\Debug\net7.0\Nanoid.dll
+D:\Projetos\UrlShortner\UrlShortner\obj\Debug\net7.0\UrlShortner.csproj.CopyComplete

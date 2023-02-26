@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "g7G+s7gXjD3c5ptcjUGEKK8q4psW4P/qC48MHnxQ3IQ=",
+  "Hash": "KuZ/EvjngpaDZ5uiCTVMV9Kwy0A1fMRaw3g30PDEiYI=",
   "Source": "UrlShortner",
   "BasePath": "_content/UrlShortner",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UrlShortner\\wwwroot",
+      "Source": "UrlShortner",
+      "ContentRoot": "D:\\Projetos\\UrlShortner\\UrlShortner\\wwwroot\\",
+      "BasePath": "_content/UrlShortner",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
